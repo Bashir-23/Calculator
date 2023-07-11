@@ -141,10 +141,16 @@
 
 }
 .btnvalue{
-    
+
     background-color: greenyellow;
 
     font-size: 30px;
 
     color: black;
+}
+
+.btnvalue:hover {
+
+    background-color: #7d7d52;
+
 }
