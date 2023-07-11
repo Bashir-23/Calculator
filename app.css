@@ -20,8 +20,6 @@
     height: 400px;
 
 
-
-
 }
 
 .keys {
@@ -35,7 +33,6 @@
     padding: 10px;
 
     margin:auto;
-
 
 }
 
@@ -140,6 +137,7 @@
     margin-bottom: 10px;
 
 }
+
 .btnvalue{
 
     background-color: greenyellow;
@@ -154,3 +152,60 @@
     background-color: #7d7d52;
 
 }
+
+.title-word {
+
+    animation: color-animation 4s linear infinite;
+}
+
+
+
+.title-word-1 {
+
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-2 {
+
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: greenyellow;
+}
+
+@keyframes color-animation {
+
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.shesh {
+
+    display: grid;
+
+    text-align: center;
+
+    height: 100vh
+}
+
+.tele {
+
+    font-family: "Montserrat", sans-serif;
+
+    font-weight: 800;
+
+    font-size: 2.5vw;
+
+    text-transform: uppercase;
+
+}
+
+
